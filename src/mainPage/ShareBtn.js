@@ -1,6 +1,8 @@
 import React from 'react';
 import twitterLogo from '../twitter.png';
 import facebookLogo from '../facebook.png';
+import linkLogo from '../link-icon.png'
+import {CopyToClipboard} from "react-copy-to-clipboard/lib/Component";
 
 const ShareBtn = ({sns}) => {
     const sharePage = ()=>{
@@ -11,10 +13,21 @@ const ShareBtn = ({sns}) => {
         }
     }
 
+    const currentUrl = window.location.href;
+
     return (
         <>
-            <button onClick={sharePage} className={"share-btn " + (sns === "Twitter" ? "twitter-btn" : "facebook-btn")}>
-                <img src={sns === "Twitter" ? twitterLogo : facebookLogo} alt="" className={"sns-logo"}/> {sns} 공유하기</button>
+            {
+                sns === "link"?
+                    <CopyToClipboard text={currentUrl}>
+                        <button  className={"share-btn"}><img src={linkLogo} alt="" className="sns-logo"/>  링크 복사하기</button>
+                    </CopyToClipboard>
+                    :
+                    <button onClick={sharePage}
+                     className={"share-btn " + (sns === "Twitter" ? "twitter-btn" : "facebook-btn")}>
+                <img src={sns === "Twitter" ? twitterLogo : facebookLogo} alt="" className={"sns-logo"}/> {sns} 공유하기
+            </button>
+                }
         </>
     );
 };

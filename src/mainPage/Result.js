@@ -3,23 +3,31 @@ import actor from '../researchInfo/result.json'
 import KakaoBtn from "./KakaoBtn";
 import ShareBtn from "./ShareBtn";
 import retryLogo from "../retry.png"
+import {Helmet} from "react-helmet";
 
 
-const Result = ({history,location}) => {
+const Result = ({history, match}) => {
 
     let actorName= "ilnahm";
     let img = ""
 
-    if(!location.props)
+    if(!match.params || !actor[match.params.character])
         history.push("/")
     else{
-        actorName = location.props.result.data.msg;
+        actorName = match.params.character;
         img = require(`../actor/${actorName}.png`).default;
     }
 
-
     return (
         <div>
+            <Helmet>
+                <title>오징어게임 인물검사 결과 [{ match.params?.character ? actor[match.params?.character].name : "결과 준비중"}]</title>
+                <meta name="description" content={`당신과 비슷한 오징어게임 인물은?? ${actor[actorName].name}!`}/>
+                <meta name="keywords" content={'오징어게임'}/>
+                <meta property={"og:type"} content={"오징어 인물검사 결과"}/>
+                <meta property={"og:description"} content={`당신과 비슷한 오징어게임 인물은?? ${actor[actorName].name}!`}/>
+                <meta property={"og:image"} content={img}/>
+            </Helmet>
             <div className="result-container">
                 <h3>나의 오징어게임 캐릭터는?</h3>
                 <div className="actor-info">
@@ -47,6 +55,7 @@ const Result = ({history,location}) => {
                             <ShareBtn sns={"Twitter"}></ShareBtn>
                             <ShareBtn sns={"Facebook"}></ShareBtn>
                             <KakaoBtn></KakaoBtn>
+                            <ShareBtn sns={"link"}></ShareBtn>
                         </div>
                         <div>
                             <button onClick={()=>{

@@ -23,8 +23,9 @@ const QuestionList = ({history}) => {
             document.querySelector(".modal-container").style.zIndex = 9999;
             document.querySelector(".modal-container").style.opacity = 1;
             setTimeout(() => {
-                requestServer.getResult(userResearch).then(result => {
-                    history.push({pathname:"/result", props: {result:result}})
+                requestServer.getResult(userResearch).then(data => {
+                    console.log(data.data.msg);
+                    history.push(`/result/${data.data.msg}`)
                 })
             }, 3000)
         }
