@@ -13,8 +13,8 @@ a:link{
   height: 100vh;
 }
 .mainQuestion-div{
-  overflow: hidden;
   height: 100vh;
+  overflow: hidden;
 }
 body {
   margin: 0;

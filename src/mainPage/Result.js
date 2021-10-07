@@ -4,6 +4,7 @@ import KakaoBtn from "./KakaoBtn";
 import ShareBtn from "./ShareBtn";
 import retryLogo from "../retry.png"
 import {Helmet} from "react-helmet";
+import {Link} from "react-router-dom";
 
 
 const Result = ({history, match}) => {
@@ -58,9 +59,7 @@ const Result = ({history, match}) => {
                             <ShareBtn sns={"link"}></ShareBtn>
                         </div>
                         <div>
-                            <button onClick={()=>{
-                                history.push("/")
-                            }} className="share-btn retry-btn"><img src={retryLogo} alt=""/> 다시 한번 더?</button>
+                            <Link to={"/result"} className="share-btn retry-btn"><img src={retryLogo} alt=""/> 다시 한번 더?</Link>
                         </div>
                     </div>
                 </div>
