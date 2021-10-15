@@ -4,7 +4,7 @@ import KakaoBtn from "./KakaoBtn";
 import ShareBtn from "./ShareBtn";
 import retryLogo from "../retry.png"
 import {Helmet} from "react-helmet";
-import {Link} from "react-router-dom";
+import Adfit from "./Adfit";
 
 
 const Result = ({history, match}) => {
@@ -27,7 +27,7 @@ const Result = ({history, match}) => {
                 <meta name="keywords" content={'오징어게임'}/>
                 <meta property={"og:type"} content={"오징어 인물검사 결과"}/>
                 <meta property={"og:description"} content={`당신과 비슷한 오징어게임 인물은?? ${actor[actorName].name}!`}/>
-                <meta property={"og:image"} content={img}/>
+                <meta property={"og:image"} content={"https://www.quizi.co.kr/thumbnail-quizi.png"}/>
             </Helmet>
             <div className="result-container">
                 <h3>나의 오징어게임 캐릭터는?</h3>
@@ -47,6 +47,9 @@ const Result = ({history, match}) => {
                             <li>- {actor[actorName].simpleScript[2]}</li>
                         </ul>
                     </div>
+                    <div style={{margin:"25px 0"}}>
+                        <Adfit height={50} width={320} unit={"0gpGEGTBrQI97jVh"} scrFlag={true} position={"middle"}></Adfit>
+                    </div>
                     <div className="interpret-div">
                         <span>{actor[actorName].detail}</span>
                     </div>
@@ -59,9 +62,11 @@ const Result = ({history, match}) => {
                             <ShareBtn sns={"link"}></ShareBtn>
                         </div>
                         <div>
-                            <Link to={"/result"} className="share-btn retry-btn"><img src={retryLogo} alt=""/> 다시 한번 더?</Link>
+                            <button onClick={()=>{history.push("/")}} className="share-btn retry-btn"><img src={retryLogo} alt=""/> 다시 한번 더?</button>
                         </div>
+
                     </div>
+                    <Adfit height={100} width={320} unit={"aYwbEJi6dW7uy5Ju"} scrFlag={false} position={"bottom"}></Adfit>
                 </div>
                 <div className="footer">
                     <span>DEVELOPED BY CHANWOO PARK<p>Email: diqksk@naver.com</p></span>

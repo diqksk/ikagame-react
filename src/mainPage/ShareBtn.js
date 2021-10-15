@@ -1,17 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import twitterLogo from '../twitter.png';
 import facebookLogo from '../facebook.png';
 import linkLogo from '../link-icon.png'
 import {CopyToClipboard} from "react-copy-to-clipboard/lib/Component";
 
 const ShareBtn = ({sns}) => {
+    const [text, setText] = useState("  링크 복사하기")
     const sharePage = ()=>{
         if(sns === "Twitter"){
-           window.open('https://twitter.com/intent/tweet?text=오징어게임으로 알아보는 심리테스트&url=http://www.quizi.com','_blank')
+           window.open('https://twitter.com/intent/tweet?text=오징어게임으로 알아보는 심리테스트&url=https://www.quizi.co.kr','_blank')
         }else{
-            window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.quizi.com','_blank')
+            window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.quizi.co.kr','_blank')
         }
     }
+
+
 
     const currentUrl = window.location.href;
 
@@ -20,7 +23,10 @@ const ShareBtn = ({sns}) => {
             {
                 sns === "link"?
                     <CopyToClipboard text={currentUrl}>
-                        <button  className={"share-btn"}><img src={linkLogo} alt="" className="sns-logo"/>  링크 복사하기</button>
+                        <button  className={"share-btn"} onClick={()=>{
+                            setText("  복사 완료!")
+                        }
+                        }><img src={linkLogo} alt="" className="sns-logo"/>{text}</button>
                     </CopyToClipboard>
                     :
                     <button onClick={sharePage}

@@ -279,17 +279,29 @@ li{
   font-weight: bold;
   font-size: 1.3em;
   margin-top: 0;
+  display: none;
 }
-.retry-btn{
-  background: #e5e5e5;
-  color: black;
-}
+
 .retry-btn img{
   width: 2em;
   vertical-align: bottom;
 }
 .footer p {
   margin:0;
+}
+
+.retry-btn{
+  background: #e5e5e5;
+  color: black;
+}
+
+.retry-btn:hover{
+  background: #747474;
+  color: white;
+}
+.modal-adfit-div button{
+  border: none;
+  background: white;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

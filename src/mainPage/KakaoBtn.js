@@ -18,7 +18,7 @@ const KakaoBtn = () => {
 
     const handleKakaoButton = () => {
         window.Kakao.Link.sendScrap({
-            requestUrl: "http://www.quizi.co.kr",
+            requestUrl: window.location.href,
         });
     };
 

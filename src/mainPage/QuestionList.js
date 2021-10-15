@@ -6,6 +6,13 @@ import requestServer from "../service/requestServer";
 const QuestionList = ({history}) => {
     const questions = questionService.getQuestions();
     const userResearch = {};
+
+    const getUserResearch = ()=>{
+        return userResearch;
+    }
+
+    questionService.setResearchFunc(getUserResearch);
+
     const getNextQuestion = (qNo, result)=>{
         const key = "q"+qNo;
         const value = result
@@ -22,12 +29,12 @@ const QuestionList = ({history}) => {
         if(qNo === 12) {
             document.querySelector(".modal-container").style.zIndex = 9999;
             document.querySelector(".modal-container").style.opacity = 1;
-            setTimeout(() => {
-                requestServer.getResult(userResearch).then(data => {
-                    console.log(data.data.msg);
-                    history.push(`/result/${data.data.msg}`)
-                })
-            }, 3000)
+            // setTimeout(() => {
+            //     requestServer.getResult(userResearch).then(data => {
+            //         console.log(data.data.msg);
+            //         history.push(`/result/${data.data.msg}`)
+            //     })
+            // }, 3000)
         }
     }
 

@@ -15,6 +15,7 @@ const questionList = [
 
 const questionService = ()=>{
     let func;
+    let researchFunc;
 
     const getQuestions = ()=>{
         return questionList;
@@ -28,8 +29,16 @@ const questionService = ()=>{
         func(round);
     }
 
+    const setResearchFunc = (f)=>{
+        researchFunc = f;
+    }
 
-    return {getQuestions, addRoundFunction, addRound}
+    const getResearchFunc = ()=>{
+        return researchFunc();
+    }
+
+
+    return {getQuestions, addRoundFunction, addRound, setResearchFunc, getResearchFunc}
 }
 
 export default questionService();
