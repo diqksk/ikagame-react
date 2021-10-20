@@ -1,0 +1,193 @@
+{
+  "sangwoo": {
+    "img": "../actor/sangwoo.png",
+    "quotes": "\"Oh, my. Ki Hun! Do you know why your life is like that? Even in this situation, you're asking such a pathetic question.\"",
+    "simpleScript": [
+      "He has the most cool-headed personality, and he is the type who is likely to win when he participates in the game.",
+      "he has a strong sense of reality and am calm.",
+      "People say they don't know what's inside, and they look cold on the surface."
+    ],
+    "detail": "A considerable number of people have the same personality as Sangwoo, and he is a person who contributes a lot to the world.\n He has a smart brain that can solve any problem based on experience and knowledge, and he has a speech that can convince people around him. We don't waste time and energy to achieve our goals, and we accurately identify and handle the tasks we need. I hate doing nonsense more than anything else, and I encourage other people to quickly recognize this and put it into action immediately. In particular, he hates being indecisive, and he easily loses patience when a decision-making plan faces a problem for unrealistic reasons. Among \n\n works, he tried to coldly abandon Sung Ki-hoon, who has been together since he was young, for his own gain, and shows that he hates Sung Ki-hoon's personality to embrace everyone. He solves the round with his unique smart brain, but in order to win the game, he continues to show his selfish side regardless of means or means. But in the matter of survival, this is a very realistic judgment, and anyone would have acted like Sang-woo if they hadn't been terrified in the game.",
+    "name": "SangWoo Jo",
+    "no": "NO.218"
+  },
+  "jiyeong": {
+    "img": "../actor/jiyeong.png",
+    "quotes": "\"Gang Saebyeok!\"\n\" Thank you for being with me...\"",
+    "simpleScript": [
+      "She has a general personality and is a type that is difficult to survive until the end of the game.",
+      "She often have a phobia of attention and a phobia of presentation.",
+      "More than the majority. She like group activities consisting of a small number of people."
+    ],
+    "detail": "Many people have similar characteristics to Ji-young, and even if they participate in the game, they will show similar behavior patterns. He is as meticulous and meticulous as the perfectionist. Usually, you are calm and have a warm heart on the inside, but you often hear from people around you that you are cold because you don't show it on the outside. I am sensitive to work given a deadline, and there is an obsession that it must be completed within the deadline. I always do my best to satisfy the expectations of the people around me. They are full of loyalty and affection for people they like or respect. He has a self-defense personality and enjoys joking with a serious look. I'm always told by people around me that I have too many thoughts. Among \n\n works, he is not enthusiastic about his game, but he faithfully plays his role. Also, to the pastor who prays for gratitude after the game, \"We survived thanks to Sang-woo and grandfather Oh Il-nam, so if you're going to pray, just pray to them.It is depicted in a very cool-headed manner to a person who is not interested, such as \". Judging from his lack of motivation throughout the game, it seems that he wanted to die, but he forms a trust relationship by telling each other's stories with dawn and sacrifices for the dawn he thought was his person.",
+    "name": "JiYeong",
+    "no": "NO.240"
+  },
+  "NO244": {
+    "img": "../actor/NO244.png",
+    "quotes": "\" The Lord is the only one who will save us.\"",
+    "simpleScript": [
+      "people who have this type have your own unique beliefs, and everything is the type of person who acts for them.",
+      "this type reflect on themselves quite often and try to be strict.",
+      "this type have a clear self-control, and they don't like being bound or forced."
+    ],
+    "detail": "It's a fairly small number of people. People similar to this character have a deeply inherent utopia or moral perspective, and they also have the determination and determination to implement it. There is no way to be lazy in dreaming of a desired utopia, and specific plans are made and implemented to achieve the purpose and continue to influence it. They tend to concentrate in one place, and it is easy to neglect the surrounding conditions necessary to achieve their goals, and there are many conflicts within them. He is a person who owns an emotional and inner life. He has excellent inspiration and excellent intuition and observation, so he sees lies and pretenses, but if he has nothing to do with him, he passes by without knowing. Among the \n\n works, he played the role of a Protestant pastor, and Ki-hoon scouted to save his team members. When you go up the elevator, you say, Jesus is the only one who can save us. Although he is immersed in the faith of \", he thinks that God has guided all the results he does and shows the aspect of sacrificing others instead of himself. Rather than comforting others as a religion, he was obsessed with moral superiority and public consciousness, denied the wrongdoing of his actions, and appeared in the image of a rather wicked man who put strict standards on others.",
+    "name": "The Minister",
+    "no": "NO.244"
+  },
+  "NO069": {
+    "img": "../actor/NO069.png",
+    "quotes": "\" Stop it now... I can't do it anymore...\"",
+    "simpleScript": [
+      "He is very affectionate to the people he is with, and it seems difficult to survive long in the game.",
+      "people who have this type are ambitious, but they don't express it externally.",
+      "people who have this type are, but they don't waste my energy."
+    ],
+    "detail": "It's a very few types of people, especially in women, the power to find is the type of person. It is an efficient character type that is imaginative, decisive, and does not express ambition externally. Rather than accumulating new knowledge, I think by synthesizing existing knowledge from various perspectives. I think emotional and emotional thinking is childish, but. When you are in a difficult situation, you tend to think emotionally. I'm not good at conveying emotions, but I'm full of emotions. I tend to avoid many acquaintances with only a few good people as friends. If you have accumulated emotions, please tell me right away, and I tend to restrain my emotions and draw reasonable conclusions from them. In \n\n's work, he played the role of a couple with his wife, and Sang-woo suggested it as a team member, but he was rejected because there were many women in the team he received with his wife. They beg the remaining participants to stop the game after losing their wife in shock, and at this point, No. 69 who lost his wife can take even 100 million won, but no one will respond to this request because it is obvious that other people will return empty-handed. In the end, he appears in the work as an unfortunate character who committed suicide by choking himself without overcoming the shock of losing his wife.",
+    "name": "Husband of a couple",
+    "no": "NO.69"
+  },
+  "frontman": {
+    "img": "../actor/front.png",
+    "quotes":"\"Keep that in mind. If we find out who we are, we die.\"",
+    "simpleScript": [
+      "It's an all-rounder type who tries to handle everything perfectly with a cool-headed idealist tendency.",
+      "I have a temperament to rebel against society.",
+      "It's a quiet and independent personality."
+    ],
+    "detail":"I have little interest in people and I'm the type of person who makes cold judgments. I'm very interested in objective principles, and I don't seem to be interested in sensibility or abstract things. I always try to speak simply and clearly, and I am not interested except for my own people. Although one's own world clearly exists, one tends to return to reality quickly without being excessively immersed in one's own world because one is quick to grasp reality. Although I have a sense of justice, I often hurt other people's feelings with my straightforward tone. In \\n\\n works, he appears as the chief manager of the field and the main player of the game. The control room supervises games and subordinate soldiers, and if necessary, leads the soldiers out and moves. It can be seen that he is not a normal person by playing jazz music in his private room, drinking the finest wine and liquor, and watching the slaughter game. When they find out that there is an intruder, they show the aggressiveness of moving to find the intruder while playing the game. Just a few circumstances show perfectionist tendencies, such as going in the opposite direction of the receiver to check for intruders. Anyone who goes against the rules set by themselves is a very strict figure in the discipline of shooting and killing themselves relentlessly, whether they are participants in the game or their subordinates.",
+    "name":"Front man"
+  },
+  "saebyeok": {
+    "img": "../actor/saebyeok.png",
+    "quotes": "\"Mister... I want to go home...\"",
+    "simpleScript": [
+      "They are friendly and kind without saying a word, but They don't show Their warmth well until They get to know the other person well.",
+      "They try to avoid conflicts with others.",
+      "They prefer to act independently rather than as a group."
+    ],
+    "detail": "It is a type of person who has a greater proportion of women. I hate being bound by rules or frames, and I also hate being prejudiced. He is a type of person who cares more about others than expected and is recognized only after a long time in the organization. He is sensitive and often spends time reflecting on himself in personal time. He shows a self-centered tendency when setting future goals, and in this case, he is seen as a charismatic person. It's easier to get hurt or sensitive than you think, and there are many times when you help others and don't get paid enough. \n\n In his work, he plays the role of a North Korean defector and a professional pickpocketer in a desperate situation that requires a lot of money for his family. For his own purpose, he seems cold-blooded, whether pickpocket or murder, but he is actually described as a person who is soft-hearted and knows how to do for others. He is a person with good situational judgment and quickness, such as pretending to be anesthetized and carrying a knife when all participants are changed to anesthetized. Even when Ki-hoon approaches and reaches out, he pushes out the approaching people, saying, \"I don't believe in people,\" but at the end, he shows his dependence on Ki-hoon, who reached out his hand, suggesting that he also has a soft-hearted girl. It also shows Ji-young leaving the game room crying even when she sacrifices for herself.",
+    "name": "Kang SaeByeok",
+    "no": "NO.67"
+  },
+  "alli": {
+    "img": "../actor/alli.png",
+    "quotes": "\"Eat this. I didn't eat it during the meal time earlier and saved it. To give it to you...\"",
+    "simpleScript": [
+      "Regardless of whether it is disadvantageous or not, it is the type to pursue moral conscience or virtue with pure intentions.",
+      "They make positive judgments quickly to those who are susceptible to being hurt and show favor to themselves.",
+      "They try to do the right thing."
+    ],
+    "detail": "He is an idealist who looks only at the positive side of the worst or bad people and tries to create a better situation. They are proud of their thoughts and actions, but sometimes they are seen as frustrating and clueless to others. I think I have a very poor evaluation of myself and I think I'm a person who's worse than others. I try not to cause disputes as much as possible, and I don't express anger well outside. But once you're angry, you get very angry. \n\n In his work, he is a foreign worker who came to Korea dreaming of a Korean dream, but rather than achieving his dream, he has been overworked in his body and mind and is full of wounds. He holds Ki Hoon, who was almost eliminated from the first game, with one hand and saves him, showing that he takes care of the safety of others as much as his own. It also suggests that he has strong power, such as swinging steel frames in tug-of-war games. He judged Sang-woo, who helped him, to be a good person and followed him to the end, but eventually, he was kicked out by Sang-woo, who he trusted. Judging from the fact that he did not create a conflict with any of the characters (except for the president of the wicked), and that he is confidently established as a team member, he is clearly a person who is well integrated into the organization and loved in reality.",
+    "name": "Alli Abdul",
+    "no": "NO.199"
+  },
+  "byeongki": {
+    "img": "../actor/byeongki.png",
+    "quotes": "\"This is my operating room!\"",
+    "simpleScript": [
+      "It's a computational type that favors anyone for their own gain.",
+      "They are often evaluated as having a dark personality and looking depressed.",
+      "They are the type who wants to focus quietly on their work without being disturbed."
+    ],
+    "detail": "They are a person who comes out of quite a few of the cast members and is satisfied with the results himself. This is because characters with the same tendency as weapons extremely hate ordinaryness. People of this type are proud of their originality, creativity, and their own intellectual curiosity. He is quiet and quiet and likes to solve problems through logic and analysis. Even if there is something somewhat unreasonable, I am good at using it to bring out a situation that is favorable to me. They focus on making plans, but in reality, they tend to show their capabilities through improvisational activities rather than carrying out the plans as they are. \n\n In his work, he played the role of a quack doctor on Deoksu's side, and he showed a selfish and strong self-esteem. Through an internal communication with the staff, we siphoned off the losers to extract organs and made a deal to receive hints and food for the next game in return. In order to join the Deoksu team, he only informs Deoksu of the information on the next game and made Deoksu abandon Beauty. He is a person who is seen as human trash who has committed evil acts of public anger by throwing away professional ethics for his own benefit and extracting long-term goods from living people.",
+    "name": "ByeongKi",
+    "no": "NO.111"
+  },
+  "deoksu": {
+    "img": "../actor/deoksu.png",
+    "quotes": "\"You punks! I will never go here! If you want to go, go ahead!\"",
+    "simpleScript": [
+      "They are the type to create their own group anywhere based on overflowing energy.",
+      "They like physical activities rather than words.",
+      "People around me often say they're an attention seeker."
+    ],
+    "detail": "He is a very competitive and rebellious person. People who are this character are honest and straightforward, and prefer to solve problems with actions rather than words. You have made bad choices at the crossroads of life, and you tend to get tired of the surrounding situations or characters quickly. He has a strong pride and is very competitive, but he is used to bringing his competitors into submission with his unique versatility and leading them to his own group. I often rely on spontaneous behavior, and I prefer to experience it directly experience rather than a book.  If this person goes to the army, he is more likely to have gone to commandos or marines than to the general army. I'm always confident, but inside, I care a lot about how others see me. \n\n In the work, he played the role of a gangster who lost and chased the organization's money at a casino. If you are caught by an organization anyway, even if you kill all people in the game, you will win the game and solve all the problems. It not only throws out Hanmi-nyeo, who promised to be together in the previous game, in the next game without hesitation, but also brutally assaults and kills those who protested in a set distribution. He is a person who forces others to abide by the rules, but even shows a selfish personality that does not follow the rules when it's his turn.",
+    "name": "Jang Deoksoo",
+    "no": "NO.101"
+  },
+  "minyeo": {
+    "img": "../actor/minyeo.png",
+    "quotes": "\"How can you be ashamed of yourself for not being able to go after all the forms you've got?\"",
+    "simpleScript": [
+      "They are the type to pursue laughter, entertainment, and new enjoyment.",
+      "People around me often say They are an attention seeker.",
+      "They are impulsive and very passionate, but they get tired of it quickly and They are."
+    ],
+    "detail": "People who correspond to this character are easily immersed in the excitement or situation of the moment, and people around them want to enjoy that feeling, too. This type tries to create a pleasant atmosphere regardless of the current situation, and even chats for hours regardless of the topic. He is affectionate, forgetful, and has a hard time being alone. There are many people who are very clumsy and like to focus on people rather than situations. Basically, there is trust in everyone, but those who violate trust also show revenge by chasing them to the end of the earth. I don't like to move according to the plan.\n\n In the work, she plays the role of a married woman. After the first game, he complained with tears that there was a child who could not report his birth because he had not yet named it, but his eyes changed 180 degrees when he saw the amount of prize money. After helping Deoksu, he will join the Deoksu party, but he is abandoned in one game and kneels down to Deoksu and shows a servile appearance. From Ki Hoon's team, which joined with his unique Nucksal, it can be seen that he is quite selfish from rude remarks such as \"Do you have a visa?\" and \"Did you stay illegally?\" Later, when he had a chance to revenge on Deoksu, who betrayed him, he threw himself away and even took Deoksu to hell.",
+    "name": "Han Minyeo",
+    "no": "NO.212"
+  },
+  "VIP": {
+    "img": "../actor/VIP.png",
+    "quotes": "\"The numbers are good. 69.\"",
+    "simpleScript": [
+      "It is a type of person who often acts as a mood maker in groups and likes social and emotional ties.",
+      "I'm the type that shows my emotions quickly on my face.",
+      "It is also called a dreamer and likes to be stylish and decorated."
+    ],
+    "detail": "The people who correspond to this character will enjoy ties with people. I am good at enjoying conversations from trivial to deep conversations and continuing conversations naturally. Emotional expressions are natural, but they are too emotional and face emotional collapse when they experience stress, criticism, or conflict. They like to leave after raising the atmosphere, and they have clear likes and dislikes, which is also true of humans, and people who hate it once hate it until the end. I try to enjoy my life somehow. Rather than planning, I tend to take care of things every time. I like to meet new people, but I am extremely reluctant to meet without interest. \n\n In the work, he appears as a game viewer who bets on game sponsors and participants like horse racing horses to win money. It can be seen that he looks like a rich man without social restrictions, enjoys slaughter games, and has abnormal tastes such as using naked women as ornaments. It shows an obscene appearance, such as choosing the 69th participant and making a sex joke, but it also shows that the atmosphere is raised among VIPs with these jokes. He is quite obscene and faithful to his instincts, such as asking Hwang Joon-ho, who appeared as a waiter, for sexual activity.",
+    "name": "VIP",
+    "no": "○△□"
+  },
+  "joonho": {
+    "img": "../actor/joonho.png",
+    "quotes": "\"Why are you...\"",
+    "simpleScript": [
+      "It is a type with a revolutionary temperament to reverse the existing system or solve problems directly.",
+      "He is stubborn and strengthens his confidence in what he does.",
+      "He is quick to solve problems and makes objective judgments."
+    ],
+    "detail": "The people who correspond to this character usually have many versatile all-round beauties. I think I tend to do above average no matter what I do. He has high self-esteem and strong confidence in himself, and self-rationalization is also frequent. It is often easy to think of yourself as the most rational and logical. They try to understand the situation objectively and are good at deriving new results based on the information they have. Rather than sympathizing with the situation, they analyze the situation and reveal their thoughts and values. There is no interest in how others evaluate themselves except in areas they want to be recognized. If you can't communicate with someone, even if you're close or have known each other for a long time, you'll break off your relationship. \n\n In his work, he appears as a detective looking for his missing brother. With his unique observation and judgment, he infers the relationship with his brother by looking at the business card Sung Ki-hoon left at the police station. He disguised himself as an agent and almost broke in and was discovered several times, but he showed his calmness and covered up the situation. His ability to achieve his goals is outstanding, such as searching the island through various knowledge he gained while working as a police officer and eventually finding information about his brother. He can be seen as a person who complies with ethical standards, judging by making himself engage in sexual activity and fainting without killing the VIP who saw his identity.",
+    "name": "Hwang Jun Ho.",
+    "no": "Observationist"
+  },
+  "yangbok": {
+    "img": "../actor/yangbok.png",
+    "quotes": "\"Do you want to play a game with me?\"",
+    "simpleScript": [
+      "It is one of the types of people with the best economic power.",
+      "They are recognized for their abilities in the organization and have the leadership to lead the organization.",
+      "I'm good at persuading people."
+    ],
+    "detail": "The people who correspond to this character give advice to others and lead them to the path they think is right even on a rough thorny path. They are also good at uniting the crowd, so they often work as heads of organizations in the community, and they also work hard to bring scattered people together. Due to the lack of ability to consider the emotions of others, there are cases where people are treated excessively based on the legitimacy of their work. It is more realistic by pursuing the present facts than the future possibilities. They often have unusual interests, and they throw humor with a straight face, making their opponents embarrassed. He tends to be perfectionist, and he tries to carry out his duties with responsibility rather than emotions. He has been recognized by his superiors more than by his superiors for his thorough self-management and perfect handling of his duties. \n\n In the work, he appeared as a \"Suit Man\" who recruits people to participate in the squid game through a game on the subway, and his name was not disclosed. He appears in front of Ki Hoon, who wanders in debt, and asks to bet 100,000 won for a slap-match. Since the suit man is good at anything, he has won more than several consecutive games against Ki-hoon and succeeded in hitting him. It shows the skill of losing while raising Ki-hoon's medicine as much as he can, self-suggesting reality, and encouraging him to participate in the game. Rumor has it that this person was a former assistant and worked outside with the trust of the organization.",
+    "name": "Suit guy",
+    "no": "○△□"
+  },
+  "ilnahm": {
+    "img": "../actor/ilnahm.png",
+    "quotes": "\"We're Kkanbu. We don't have yours and mine between you and me.\"\n\"Please stop... I'm scared! If you do this, you'll all die!\"",
+    "simpleScript": [
+      "He is interested in other people and likes to talk.",
+      "He is the most prepared and patient.",
+      "They value harmony and balance and play a good role as mediators among people."
+    ],
+    "detail": "People who are this character have good empathy. However, even if you don't really sympathize, you tend to have a \"fake\" empathy that suits the other person's mood. I'm realistic and good at making money because I'm in the world. He has a temperament of perfectionism and judges right and wrong sharply. I am better at memorizing recklessly than memorizing based on understanding. It's very thorough and realistic, but it's hard to tell what others don't like and most of them are tailored, so it's not noticeable. I tend to pursue social status, authority, and honor rather than money. Once I've started, I'm the type to look at the end. More than pursuing authority on your own, you often become a leader at the request of others, and you are cheered by many people for your strong personality and vision. Even if you contradict yourself, you admire other people's opinions and think you don't have all the answers. \n\n In the work, he appears as the \"old man with few days left to live\" who participated in the game first with participation number 1. They show themselves enjoying the game alone among panicked people during the game. He is seen as a person who does not want to be with many people with the body of the elderly, but he is always seen as a person who is capable of passing the situation within the organization that includes him. He participated in the game only in pursuit of fun in his boring daily life, but he showed empathy with people around him with his unique affection and sympathy. However, this is only a superficial empathy, and from the perspective of a third observer, it also shows a cold-hearted appearance of enjoying the participants' actions.",
+    "name": "Oh IlNahm",
+    "no": "NO.001"
+  },
+  "administrator": {
+    "img": "../actor/administrator.png",
+    "quotes": "\"I sincerely welcome all of you who participated in the squid game.\"",
+    "simpleScript": [
+      "He is a natural leader with charisma and responsibility.",
+      "They tend to idealize too much about people's good points and show blind loyalty.",
+      "They say they think they are the same as others."
+    ],
+    "detail": "People who correspond to this character have a temperament to apply their beliefs to society or around them. I like to belong to a group, but I have a my way temperament. You can work ten lines with both the recognition and praise you receive from others. They tend to blindly idealize people. I hate conflict and like to lead the world. I make advance plans and try to move accordingly. When angry, I don't express it and endure it silently. They tend to be overly idealistic and angry when they feel they ignore the principles they choose. I tend to be sensitive to the other person's words and criticism and hold it in my mind for days and days. It is a daily routine to slow down progress for those who are active and driven but cannot keep up. \n\n In the work, it appears as a manager mask role that guides participants to rules and progress. He is in charge of actually playing the game, such as playing the role of a moderator or adjusting facilities and systems in the game and supervising the camera in the control room. It can be seen that the rank of the staff is the highest, and the staff is in a position to be recognized to some extent by faithfully following the orders of the manager's However, some masks do not appear to be unconditionally disciplined, such as taking private interests beyond the control of the upper part or being shot off the mask.",
+    "name": "□ Mask Man",
+    "no": "□"
+  },
+  "kihoon": {
+    "img": "../actor/kihoon.png",
+    "quotes": "\"Yes, I...I'm Sung Ki Hoon from Ssangmun-dong.\"",
+    "simpleScript": [
+      "Lead and lead others for a common goal.",
+      "They tend to be overly honest.",
+      "I talk to myself often."
+    ],
+    "detail": "People who correspond to these characters are likely to be natural leaders. It is characterized by sometimes reckless behavior to achieve goals. He has high ambition and is a strong self-assertion. They have high self-esteem and tend to make decisions impulsively, but they often flow in a good direction with their innate intuition. Work is done as a job, swearing is often done as a desire, and I hate the routine that is always repeated. He gets close to people quickly and reaches out to the marginalized. They also have a challenging tendency to enjoy discussions without avoiding conflict. Straightforward speech can offend the other person and cause conflict and discord. There are many times when the desire to win is excessive and ruin things. When someone is not doing something, he or she often takes care of it because he or she is frustrated and doesn't understand. \n\n In the work, he appears as the last debtor to participate in the game. He was chased by debt, but he was lucky to win 4.56 million won in horse racing, and he is impulsive enough to tip the ticket inspector with that joy. They try to take care of their own people, but they try to take care of them without even taking care of their own work, so they only give discomfort to the other person. In the game, you can easily see them talking to people around you with their unique nosiness, and they show their tolerance in reaching out to the elderly who don't want to let anyone in as a team. He is a person who suggests that humanity is inherent in the pathetic person and that there is another possibility.",
+    "name": "Sung Ki Hoon",
+    "no": "NO.456"
+  }
+}

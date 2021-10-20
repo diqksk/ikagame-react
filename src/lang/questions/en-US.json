@@ -1,0 +1,76 @@
+{"data":
+[
+  {
+    "qNo": 1,
+    "question": "You're on your 3rd holiday! What are your plans for the holidays?",
+    "btn1": "Gather up!!! Travel with your friends for 3 days and 2 nights",
+    "btn2": "I relieve my fatigue by sleeping"
+  },
+  {
+    "qNo": 2,
+    "question": "You can see someone approaching me from afar. What about you?",
+    "btn1": "I don't care it, just go on my way",
+    "btn2": "Change the route I was moving"
+  },
+  {
+    "qNo": 3,
+    "question": "You participated in the game... Someone took your food. And you?",
+    "btn1": "What kind of fuck is that? I'll find the him.",
+    "btn2": "Imagine how hungry he was. I'm going to starve this time."
+  },
+  {
+    "qNo": 4,
+    "question": "A lot of people died in a murder in the building in front of my house. and next day?",
+    "btn1": "I go around as usual.",
+    "btn2": "Just in case it's annoying... I'll avoid there for a while."
+  },
+  {
+    "qNo": 5,
+    "question": "You picked up the death note by chance. And you?",
+    "btn1": "Wow... Is it real? Can't believe it.",
+    "btn2": "The people I hated so far are passing by in my head."
+  },
+  {
+    "qNo": 6,
+    "question": "You are in the cafe to kill time. What will you do?",
+    "btn1": "I recharge my energy by watching fun videos.",
+    "btn2": "I draw pictures or read books."
+  },
+  {
+    "qNo": 7,
+    "question": "I saw a part-timer being scolded by the boss at the cafe. What do you think?",
+    "btn1": "I wonder what he did wrong.",
+    "btn2": "It must be hard to work, but I feel bad for him to be scolded by the boss."
+  },
+  {
+    "qNo": 8,
+    "question": "What is important point when you buy a cell phone?",
+    "btn1": "Of course, the performance and screen!",
+    "btn2": "I want to buy it when the design is pretty"
+  },
+  {
+    "qNo": 9,
+    "question": "my friend passed the test that he was looking forward to. What will you say to him?",
+    "btn1": "Wow, you studied really hard. Congratulations!",
+    "btn2": "I knew you'd get in! Do you want chicken and beer with me?"
+  },
+  {
+    "qNo": 10,
+    "question": "you have to go to drive to a restaurant far away. What is your plan?",
+    "btn1": "I can park anywhere near the restaurant. Let's go.",
+    "btn2": "It's uncomfortable if there's no parking space. I'll call the restaurant before start."
+  },
+  {
+    "qNo": 11,
+    "question": "How messy is your desk now?",
+    "btn1": "Don't say it's messy. I have my own rules!",
+    "btn2": "Neat and clean. I always leave what I used in place."
+  },
+  {
+    "qNo": 12,
+    "question": "I received a business card with ○△□ written on it. What should you do?",
+    "btn1": "Just call him first.",
+    "btn2": "Search for the same phone number on the Google."
+  }
+]
+}

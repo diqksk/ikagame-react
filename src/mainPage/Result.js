@@ -1,17 +1,24 @@
-import React from 'react';
-import actor from '../researchInfo/result.json'
+import React, {useState} from 'react';
+// import actor from '../researchInfo/result.json'
 import KakaoBtn from "./KakaoBtn";
 import ShareBtn from "./ShareBtn";
 import retryLogo from "../retry.png"
 import {Helmet} from "react-helmet";
 import Adfit from "./Adfit";
+import questionService from "../service/questionService";
 
 
 const Result = ({history, match}) => {
+    const [language, setLanguage]=useState("ko")
 
+    const changeLang=(e)=>{
+        localStorage.clear();
+        localStorage.setItem("locale",e.target.value);
+        setLanguage(e.target.value);
+    }
     let actorName= "ilnahm";
     let img = ""
-
+    const actor = questionService.getActor();
     if(!match.params || !actor[match.params.character])
         history.push("/")
     else{
@@ -21,16 +28,27 @@ const Result = ({history, match}) => {
 
     return (
         <div>
+            <div className="header" style={{zIndex:9999}}>
+                <div>
+                    <ul>
+                        <li><button type={"button"} value={"ko"} onClick={changeLang}>한국어</button></li>
+                        <li><button type={"button"} value={"zh"} onClick={changeLang}>中文</button></li>
+                        <li><button type={"button"} value={"en-US"} onClick={changeLang}>Eng</button></li>
+                        <li><button type={"button"} value={"jp"} onClick={changeLang}>日本語</button></li>
+                    </ul>
+                </div>
+            </div>
             <Helmet>
                 <title>오징어게임 인물검사 결과 [{ match.params?.character ? actor[match.params?.character].name : "결과 준비중"}]</title>
-                <meta name="description" content={`당신과 비슷한 오징어게임 인물은?? ${actor[actorName].name}!`}/>
-                <meta name="keywords" content={'오징어게임'}/>
-                <meta property={"og:type"} content={"오징어 인물검사 결과"}/>
-                <meta property={"og:description"} content={`당신과 비슷한 오징어게임 인물은?? ${actor[actorName].name}!`}/>
+                <meta name="description" content={`${localStorage.getItem("locale") === "ko" ?"당신과 비슷한 오징어게임 인물은??":"A squid game character similar to you "} ${actor[actorName].name}!`}/>
+                <meta name="keywords" content={localStorage.getItem("locale") === "ko" ?'오징어게임':"Squid Game"}/>
+                <meta property={"og:type"} content={localStorage.getItem("locale") === "ko" ?"오징어 인물검사 결과":"Squid-game character result"}/>
+                <meta property={"og:description"} content={`${localStorage.getItem("locale") === "ko" ? "당신과 비슷한 오징어게임 인물은??" : "What is your Squid-game character "} ${actor[actorName].name}!`}/>
                 <meta property={"og:image"} content={"https://www.quizi.co.kr/thumbnail-quizi.png"}/>
             </Helmet>
             <div className="result-container">
-                <h3>나의 오징어게임 캐릭터는?</h3>
+
+                <h3>{localStorage.getItem("locale") === "ko" ? "나의 오징어게임 캐릭터는?" : "What is my character!?"}</h3>
                 <div className="actor-info">
                     <p><span className="actor-no">{actor[actorName].no}</span></p>
                     <p><span className="actor-name">{actor[actorName].name}</span></p>
@@ -62,7 +80,7 @@ const Result = ({history, match}) => {
                             <ShareBtn sns={"link"}></ShareBtn>
                         </div>
                         <div>
-                            <button onClick={()=>{history.push("/")}} className="share-btn retry-btn"><img src={retryLogo} alt=""/> 다시 한번 더?</button>
+                            <button onClick={()=>{history.push("/")}} className="share-btn retry-btn"><img src={retryLogo} alt=""/> {localStorage.getItem("locale") === "ko" ?"다시 한번 더?":"Retry?"}</button>
                         </div>
 
                     </div>

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import questionService from "../service/questionService";
-import requestServer from "../service/requestServer";
+
 
 
 const QuestionList = ({history}) => {
+    const [userResearch,setUserResearch] = useState({})
     const questions = questionService.getQuestions();
-    const userResearch = {};
 
     const getUserResearch = ()=>{
         return userResearch;
@@ -17,7 +17,7 @@ const QuestionList = ({history}) => {
         const key = "q"+qNo;
         const value = result
 
-        userResearch[key]=value;
+        setUserResearch({...userResearch,[key]:value});
 
         setTimeout(()=>{
             document.querySelector(".slider").style.transform = `translate(-${qNo*100}vw)`;
@@ -29,12 +29,6 @@ const QuestionList = ({history}) => {
         if(qNo === 12) {
             document.querySelector(".modal-container").style.zIndex = 9999;
             document.querySelector(".modal-container").style.opacity = 1;
-            // setTimeout(() => {
-            //     requestServer.getResult(userResearch).then(data => {
-            //         console.log(data.data.msg);
-            //         history.push(`/result/${data.data.msg}`)
-            //     })
-            // }, 3000)
         }
     }
 
