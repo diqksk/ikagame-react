@@ -6,6 +6,7 @@ import retryLogo from "../retry.png"
 import {Helmet} from "react-helmet";
 import Adfit from "./Adfit";
 import questionService from "../service/questionService";
+import AdSense from "./AdSense";
 
 
 const Result = ({history, match}) => {
@@ -66,7 +67,8 @@ const Result = ({history, match}) => {
                         </ul>
                     </div>
                     <div style={{margin:"25px 0"}}>
-                        <Adfit height={50} width={320} unit={"0gpGEGTBrQI97jVh"} scrFlag={true} position={"middle"}></Adfit>
+                        {/*<Adfit height={50} width={320} unit={"0gpGEGTBrQI97jVh"} scrFlag={true} position={"middle"}></Adfit>*/}
+                        <AdSense position={"middle"} slot={"8166037771"}></AdSense>
                     </div>
                     <div className="interpret-div">
                         <span>{actor[actorName].detail}</span>
@@ -84,7 +86,8 @@ const Result = ({history, match}) => {
                         </div>
 
                     </div>
-                    <Adfit height={100} width={320} unit={"aYwbEJi6dW7uy5Ju"} scrFlag={false} position={"bottom"}></Adfit>
+                    <AdSense position={"bottom"} slot={"6473326933"}></AdSense>
+                    {/*<Adfit height={100} width={320} unit={"aYwbEJi6dW7uy5Ju"} scrFlag={false} position={"bottom"}></Adfit>*/}
                 </div>
                 <div className="footer">
                     <span>DEVELOPED BY CHANWOO PARK<p>Email: diqksk@naver.com</p></span>
